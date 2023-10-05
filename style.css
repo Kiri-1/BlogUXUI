@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* HEADER */
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe4c4; /*dentro boton*/
+    border: 3px solid #f0b670; /*borde afuera*/
+    border-radius: 50px; 
+    width: 250px;
+    height: 40px;
+}
+
+.icono {
+    margin: 5px; /*borde icono afuera*/
+    width: 40px;
+    height: 40px;
+
+}
+
+.lineaizq{
+    border-bottom: 3px solid #f0b670;
+    width:3%;
+}
+
+.lineader {
+    border-bottom: 3px solid #f0b670;
+    width: 100%;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+/* HEADER */
+/* CENTRO */
+
+
+/* CENTRO */
