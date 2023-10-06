@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f6e5f0;
 
 }
 
@@ -9,8 +10,94 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffe4c4; /*dentro boton*/
-    border: 3px solid #f0b670; /*borde afuera*/
+    background-color: #df9cad; /*dentro boton*/
+    border: 3px solid #b75a71; /*borde afuera*/
+    border-radius: 50px; 
+    width: 250px;
+    height: 40px;
+}
+
+.lineaizqH{
+    border-bottom: 3px solid #b75a71;
+    width:3%;
+}
+
+.lineaderH {
+    border-bottom: 3px solid #b75a71;
+    width: 100%;
+}
+
+.container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+/* HEADER */
+/* CENTRO */
+.titulo1{
+    font-family: 'Bitter', 'serif';
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.titulo2{
+    margin: 10px 100px;
+    font-family: 'Bitter', 'serif';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* CENTRO */
+
+/* CONTENDIO INFORMACION PERSONAL */
+.imagen1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img1{
+    width: 200px;
+    margin: 40px;
+}
+.parrafo1{
+    flex:1;
+    max-width: 50%;
+    font-family: 'Bitter', 'serif';
+    font-size: 15px;
+}
+
+.imagen2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.img2{
+    width: 200px;
+    margin: 40px;
+}
+.parrafo2{
+    flex:1;
+    max-width: 50%;
+    font-family: 'Bitter', 'serif';
+    font-size: 15px;
+    
+}
+
+
+/* CONTENDIO INFORMACION PERSONAL */
+
+
+/*FOOTER*/
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #df9cad; /*dentro boton*/
+    border: 3px solid #b75a71; /*borde afuera*/
     border-radius: 50px; 
     width: 250px;
     height: 40px;
@@ -23,14 +110,14 @@ body {
 
 }
 
-.lineaizq{
-    border-bottom: 3px solid #f0b670;
-    width:3%;
+.lineaizqF{
+    border-bottom: 3px solid #b75a71;
+    width:100%;
 }
 
-.lineader {
-    border-bottom: 3px solid #f0b670;
-    width: 100%;
+.lineaderF {
+    border-bottom: 3px solid #b75a71;
+    width: 3%;
 }
 
 .container {
@@ -38,8 +125,3 @@ body {
     display: flex;
     align-items: center;
 }
-/* HEADER */
-/* CENTRO */
-
-
-/* CENTRO */
