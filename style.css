@@ -10,16 +10,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #df9cad; /*dentro boton*/
-    border: 3px solid #b75a71; /*borde afuera*/
-    border-radius: 50px; 
+    background-color: #df9cad;
+    /*dentro boton*/
+    border: 3px solid #b75a71;
+    /*borde afuera*/
+    border-radius: 50px;
     width: 250px;
     height: 40px;
 }
 
-.lineaizqH{
+.lineaizqH {
     border-bottom: 3px solid #b75a71;
-    width:3%;
+    width: 3%;
 }
 
 .lineaderH {
@@ -28,63 +30,89 @@ body {
 }
 
 .container {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
+
 /* HEADER */
 /* CENTRO */
-.titulo1{
+.titulo1 {
     font-family: 'Bitter', 'serif';
     font-size: 80px;
     display: flex;
     justify-content: center;
 
 }
-.titulo2{
+
+.titulo2 {
     margin: 10px 100px;
     font-family: 'Bitter', 'serif';
     font-size: 15px;
     display: flex;
     justify-content: center;
-    
+
 }
+
 /* CENTRO */
 
 /* CONTENDIO INFORMACION PERSONAL */
-.imagen1{
+.imagen1 {
     display: flex;
     align-items: center;
     justify-content: center;
 
+
 }
-.img1{
+
+.img1 {
     width: 200px;
     margin: 40px;
 }
-.parrafo1{
-    flex:1;
+
+.parrafo1 {
+    flex: 1;
     max-width: 50%;
     font-family: 'Bitter', 'serif';
     font-size: 15px;
 }
 
-.imagen2{
+.imagen2 {
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.img2{
+
+.img2 {
     width: 200px;
     margin: 40px;
 }
-.parrafo2{
-    flex:1;
+
+.parrafo2 {
+    flex: 1;
     max-width: 50%;
     font-family: 'Bitter', 'serif';
     font-size: 15px;
-    
+
+}
+
+.boton1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-block {
+
+    background-color: #df9cad !important;
+
+}
+
+.btn-block:hover {
+    background-color: #b75a71 !important;
 }
 
 
@@ -96,23 +124,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #df9cad; /*dentro boton*/
-    border: 3px solid #b75a71; /*borde afuera*/
-    border-radius: 50px; 
+    background-color: #df9cad;
+    /*dentro boton*/
+    border: 3px solid #b75a71;
+    /*borde afuera*/
+    border-radius: 50px;
     width: 250px;
     height: 40px;
 }
 
 .icono {
-    margin: 5px; /*borde icono afuera*/
+    margin: 5px;
+    /*borde icono afuera*/
     width: 40px;
     height: 40px;
 
 }
 
-.lineaizqF{
+.lineaizqF {
     border-bottom: 3px solid #b75a71;
-    width:100%;
+    width: 100%;
 }
 
 .lineaderF {
