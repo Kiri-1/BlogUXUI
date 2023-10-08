@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f6e5f0;
+    background-color: #f7dce3 !important;
 
 }
 
@@ -106,13 +106,14 @@ body {
 }
 
 .btn-block {
-
     background-color: #df9cad !important;
-
+    font-family: 'Bitter', 'serif' !important;
+    font-size: 19px !important;
 }
 
 .btn-block:hover {
     background-color: #b75a71 !important;
+    color: black !important;
 }
 
 
