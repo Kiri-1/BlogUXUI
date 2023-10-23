@@ -33,11 +33,16 @@ body {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
+=======
+    background-color: bisque;
+>>>>>>> cc87e146486cbfb25eaecad43f27363d3a59cd1d
 }
 
 /* HEADER */
 
 /* INFORMACION PRINCIPAL  */
+<<<<<<< HEAD
 
 .carousel-item.active {
     display: flex !important;
@@ -90,3 +95,12 @@ body {
     width:auto !important;
 }
 /* CARDS */
+=======
+.carousel-item img{
+    margin-top: 20px;
+    max-height: 200px;
+    width: auto;
+}
+
+ /* INFORMACION PRINCIPAL */
+>>>>>>> cc87e146486cbfb25eaecad43f27363d3a59cd1d

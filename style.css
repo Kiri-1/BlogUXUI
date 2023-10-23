@@ -18,6 +18,13 @@ body {
     width: 250px;
     height: 40px;
 }
+.pargrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bitter', 'serif';
+    font-size: 15px;
+}
 
 .pargrid {
     display: flex;
