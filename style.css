@@ -19,6 +19,14 @@ body {
     height: 40px;
 }
 
+.pargrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bitter', 'serif';
+    font-size: 15px;
+}
+
 .lineaizqH {
     border-bottom: 3px solid #b75a71;
     width: 3%;
@@ -157,3 +165,4 @@ body {
     display: flex;
     align-items: center;
 }
+/*FOOTER*/
