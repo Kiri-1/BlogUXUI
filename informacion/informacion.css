@@ -62,7 +62,7 @@ body {
 /* HEADER */
 
 /* INFORMACION PRINCIPAL  */
-
+/* Carrusel */
 .carousel-item.active {
     display: flex !important;
     justify-content: center;
