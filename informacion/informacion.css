@@ -52,7 +52,7 @@ body {
     width: 100%;
 }
 
-.container {
+.containerBoton {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -74,7 +74,7 @@ body {
     object-fit: cover !important;
 }
 
-.containercarusel {
+.containerCarusel {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -99,7 +99,7 @@ body {
 
 /*CARDS */
 
-.card-container {
+.cardContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
