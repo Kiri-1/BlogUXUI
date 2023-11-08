@@ -2,7 +2,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7dce3 !important;
+    background-image: url('../assets/Animacionini.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 /* HEADER */
 .grid {
@@ -116,6 +120,198 @@ body {
 }
 
 /* CARDS */
+/* Skills */
+.container{
+    display:flex;
+    justify-content: center;
+}
+.cardTitulo {
+    margin: 20px 100px;
+    font-family: 'Bitter', 'serif';
+    display: flex;
+    justify-content: center;
+
+}
+
+.skillTec {
+    display: flex;
+    justify-content: center;
+}
+
+.barra-progress {
+    display: flex;
+    justify-content: center;
+}
+
+.containerSkill {
+    width: 450px;
+    text-align: center;
+    margin: 20px 100px;
+}
+
+.progress2 {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+.progress-moved .progress-bar2 {
+    width: 85%;
+    background-color: #EF476F;
+    animation: progressAnimation 6s;
+}
+
+.progress2 {
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+.progress-moved-html .progress-bar2 {
+    width: 85%;
+    background-color: #EF476F;
+    animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation {
+    0% {
+        width: 5%;
+        background-color: #F9BCCA;
+    }
+
+    100% {
+        width: 85%;
+        background-color: #EF476F;
+    }
+}
+
+.progress-moved-css .progress-bar2 {
+    width: 85%;
+    background-color: #EF476F;
+    animation: progressAnimation-css 6s;
+}
+
+@keyframes progressAnimation-css {
+    0% {
+        width: 5%;
+        background-color: #F9BCCA;
+    }
+
+    100% {
+        width: 85%;
+        background-color: #EF476F;
+    }
+}
+
+.progress-moved-js .progress-bar2 {
+    width: 70%;
+    background-color: #EF476F;
+    animation: progressAnimation-js 6s;
+}
+
+@keyframes progressAnimation-js {
+    0% {
+        width: 5%;
+        background-color: #F9BCCA;
+    }
+
+    100% {
+        width: 70%;
+        background-color: #EF476F;
+    }
+}
+
+.progress-moved-b .progress-bar2 {
+    width: 85%;
+    background-color: #EF476F;
+    animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation-b {
+    0% {
+        width: 5%;
+        background-color: #F9BCCA;
+    }
+
+    100% {
+        width: 85%;
+        background-color: #EF476F;
+    }
+}
+
+.progress-moved-angular .progress-bar2 {
+    width: 55%;
+    background-color: #EF476F;
+    animation: progressAnimation-angular 6s;
+}
+
+@keyframes progressAnimation-angular {
+    0% {
+        width: 5%;
+        background-color: #F9BCCA;
+    }
+
+    100% {
+        width: 55%;
+        background-color: #EF476F;
+    }
+}
+
+.progress-moved-java .progress-bar2 {
+    width: 70%;
+    background-color: #EF476F;
+    animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation-java {
+    0% {
+        width: 5%;
+        background-color: #F9BCCA;
+    }
+
+    100% {
+        width: 70%;
+        background-color: #EF476F;
+    }
+}
+
+.progress-moved-mys .progress-bar2 {
+    width: 50%;
+    background-color: #EF476F;
+    animation: progressAnimation-mys 6s;
+}
+
+@keyframes progressAnimation-mys {
+    0% {
+        width: 5%;
+        background-color: #F9BCCA;
+    }
+
+    100% {
+        width: 50%;
+        background-color: #EF476F;
+    }
+}
+
+/* Skills */
 /*FOOTER*/
 .grid {
     display: flex;
@@ -149,7 +345,8 @@ body {
 }
 
 .container {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
