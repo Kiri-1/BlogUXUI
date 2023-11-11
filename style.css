@@ -19,7 +19,7 @@ body {
     border: 3px solid #b75a71;
     /*borde afuera*/
     border-radius: 50px;
-    width: 250px;
+    width: 450px;
     height: 40px;
 }
 
@@ -72,7 +72,13 @@ p {
     align-items: center;
 
 }
+@media screen and (max-width: 648px){
+    .titulo1 , .titulo2{
+        text-align: center;
 
+    }
+    
+}
 /* CENTRO */
 
 /* CONTENDIO INFORMACION PERSONAL */
@@ -81,6 +87,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 
 .img1 {
     width: 200px;
@@ -107,19 +114,19 @@ p {
 }
 
 .parrafo2 {
-
+    
     flex: 1;
     max-width: 50%;
     font-family: 'Bitter', 'serif';
     font-size: 18px;
-
+    
 }
 
 .boton1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .btn-block {
@@ -143,14 +150,12 @@ p {
 #menu {
     list-style: none;
     padding: 0 12px;
-    margin: 0;
     background: #cc6b83;
-    margin: 100px;
+    margin: 0px;
     display: inline-block;
     height: 50px;
     overflow: hidden;
     border-radius: 5px;
-
     box-shadow: 0px 4px #914156, 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -190,10 +195,21 @@ p {
     box-shadow: 0px 0px #be647a, 0px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
+@media screen and (max-width: 768px) {
+    .imagen1 {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .img1{
+        margin: 0 !important ; 
+    }
+}
 /* CONTENDIO INFORMACION PERSONAL */
 
 /*FOOTER*/
-.grid {
+.grid-footer {
     display: flex;
     justify-content: center;
     align-items: center;
