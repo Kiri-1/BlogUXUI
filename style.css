@@ -8,7 +8,6 @@ body {
 }
 
 
-
 /* HEADER */
 .grid {
     display: flex;
@@ -72,13 +71,17 @@ p {
     align-items: center;
 
 }
-@media screen and (max-width: 648px){
-    .titulo1 , .titulo2{
+
+@media screen and (max-width: 648px) {
+
+    .titulo1,
+    .titulo2 {
         text-align: center;
 
     }
-    
+
 }
+
 /* CENTRO */
 
 /* CONTENDIO INFORMACION PERSONAL */
@@ -110,23 +113,36 @@ p {
 .img2 {
     width: 200px;
     margin: 40px;
-    margin-left: 60px
 }
 
 .parrafo2 {
-    
+
     flex: 1;
     max-width: 50%;
     font-family: 'Bitter', 'serif';
     font-size: 18px;
-    
+
+}
+
+@media screen and (max-width: 768px) {
+    .parrafo1 {
+        max-width: none !important;
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .parrafo2 {
+        order: 2;
+        max-width: none !important;
+        margin-bottom: 15px !important;
+    }
 }
 
 .boton1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .btn-block {
@@ -196,16 +212,32 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+
     .imagen1 {
         display: block;
         width: 50%;
         margin: 0 auto;
         text-align: center;
     }
-    .img1{
-        margin: 0 !important ; 
+
+    .imagen2 {
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .img1 {
+        margin: 0 !important;
+    }
+
+    .img2 {
+        order: 1;
+        margin: 20px;
     }
 }
+
 /* CONTENDIO INFORMACION PERSONAL */
 
 /*FOOTER*/
