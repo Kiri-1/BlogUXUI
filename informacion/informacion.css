@@ -9,7 +9,7 @@ body {
 
 
 /* HEADER */
-.grid {
+.grid-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body {
     height: 40px;
 }
 
-.pargrid {
+.par-grid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,27 +36,27 @@ body {
     width: 100%;
 }
 
-.grid {
+.grid-header {
     transition: background-color 0.3s, color 0.3s;
 }
 
-.pargrid:hover {
+.par-grid:hover {
     background-color: #b75a71 !important;
     color: black !important;
 }
 
 
-.lineaizqH {
+.linea-izqH {
     border-bottom: 3px solid #b75a71;
     width: 3%;
 }
 
-.lineaderH {
+.linea-derH {
     border-bottom: 3px solid #b75a71;
     width: 100%;
 }
 
-.containerBoton {
+.container-boton {
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -78,7 +78,7 @@ body {
     object-fit: cover !important;
 }
 
-.containerCarusel {
+.container-carusel {
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 2%;
@@ -88,7 +88,7 @@ body {
     background-color: rgb(245 188 203 / 63%);
 }
 
-.textoinfo {
+.texto-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,14 +101,21 @@ body {
 .col-md-6 {
     display: flex;
     justify-content: center;
-
-    
 }
 p{
     margin-bottom: 0 !important;
     margin-top: 0 !important;
 }
+@media screen and(max-width:1454px) {
+    .container-carusel{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .carousel, .col-md-6{
+        max-width: 100%;
 
+    }
+}
 /* INFORMACION PRINCIPAL */
 
 /*CARDS */
@@ -131,7 +138,7 @@ p{
 
 /* CARDS */
 /* Skills */
-.container{
+.container-skills{
     display:flex;
     justify-content: center;
 }
@@ -154,9 +161,9 @@ p{
 }
 
 .containerSkill {
-    width: 450px;
+    width: 100%;
     text-align: center;
-    margin: 20px 100px;
+    margin: 20px auto;
 }
 
 .progress2 {
@@ -323,7 +330,7 @@ p{
 
 /* Skills */
 /*FOOTER*/
-.grid {
+.grid-footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -354,7 +361,7 @@ p{
     width: 3%;
 }
 
-.container {
+.container-footer{
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
