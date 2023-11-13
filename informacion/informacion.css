@@ -79,11 +79,13 @@ body {
 }
 
 .containerCarusel {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
     display: flex;
     align-items: center;
-    background-color: hsl(317, 46%, 84%);
+    background-color: rgb(245 188 203 / 63%);
 }
 
 .textoinfo {
@@ -92,11 +94,19 @@ body {
     align-items: center;
     max-width: 50%;
     font-family: 'Bitter', 'serif';
-    font-size: 15px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .col-md-6 {
-    display: inline-grid;
+    display: flex;
+    justify-content: center;
+
+    
+}
+p{
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
 }
 
 /* INFORMACION PRINCIPAL */
