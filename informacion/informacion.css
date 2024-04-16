@@ -150,8 +150,9 @@ p{
 }
 
 .card-img-top {
-    height: 250px !important;
+    max-height: 500px !important;
     width: auto !important;
+   
 }
 
 @media (max-width:768px) {
